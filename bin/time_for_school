@@ -19,7 +19,10 @@ jim.last_name = "Bic"
 
 some_knowledge = avi.teach
 
-jim.learn(some_knowledge)
+
+steve.learn(some_knowledge)
 steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge[1]}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge[2]}' from Avi"
